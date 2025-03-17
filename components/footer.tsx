@@ -12,12 +12,26 @@ const Footer: React.FC = () => {
           size={'icon'}
           className="text-muted-foreground/50"
         >
-
+          
+            <SiDiscord size={18} />
+          </Link>
+        </Button>
+        <Button
           variant={'ghost'}
           size={'icon'}
           className="text-muted-foreground/50"
         >
-
+            <SiX size={18} />
+          </Link>
+        </Button>
+        <Button
+          variant={'ghost'}
+          size={'icon'}
+          className="text-muted-foreground/50"
+        >
+            <SiGithub size={18} />
+          </Link>
+        </Button>
       </div>
     </footer>
   )
